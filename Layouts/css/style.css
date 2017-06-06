@@ -11,7 +11,7 @@
 }
 
 body {
-	background: #262523 url('../images/bg-body.jpg') no-repeat center top;
+	background: #3a392d  no-repeat center top;
 	color:#ffffff;
 	margin:0px;
 }
@@ -47,6 +47,14 @@ body {
 	display: inline-block;
 	height: 80px;
 	width: 462px;
+}
+
+#header .over-18 {
+	background: url(../images/img/are_you_over_18.png) no-repeat;
+	display: block;
+	margin: auto;
+	height: 200px;
+	width: 600px;
 }
 
 #infos {
@@ -164,6 +172,23 @@ body {
 }
 #featured li.main a:hover { 
 	background: url(../images/main-hover.jpg) no-repeat 0 0;
+}
+
+
+#featured li.yes a {
+	background: url(../images/img/yes_babay.gif) no-repeat 0 0;
+	background-size: contain;
+	height: 300px;
+	width: 500px;
+	margin-right: 5px;
+}
+
+#featured li.no a {
+	background: url(../images/img/no_gif.gif) no-repeat 0 0;
+	background-size: contain;
+	height: 250px;
+	width: 450px;
+	margin-left: 5px;
 }
 
 #featured li.drinks a {
