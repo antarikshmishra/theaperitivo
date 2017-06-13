@@ -233,6 +233,7 @@ body {
 	overflow: hidden;
 }
 
+
 /*------------------------- Contact us page -------------------------*/
 #contents div table.contact-details {
 	float: left;
@@ -369,6 +370,31 @@ body {
 	padding-right: 0px;
 	text-align: left;
 }
+.menu-row {
+	display: flex;
+	width: 960px;
+	height: 300px;
+	justify-content: space-around;
+	margin: 5px;
+}
+.menu-item {
+	width: 200px;
+	height: 250px;
+	margin: auto;
+}
+.menu-item-image {
+	width: 160px;
+	height: 160px;
+}
+.menu-row h5{
+	color: #265d84;
+	display: inline-block;
+	font-family: 'DynalightRegular';
+	font-size: 23px;
+	height: 23px;
+	line-height: 15px;
+}
+
 
 /*------------------------- Main-course -------------------------*/
 #menus ul.main li {
