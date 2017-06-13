@@ -21,7 +21,8 @@
 }
 
 body {
-	background: #3a392d  no-repeat center top;
+	background: url(../images/img/background.jpg)  no-repeat center top;
+	background-size: contain;
 	color:#ffffff;
 	margin:0px;
 }
