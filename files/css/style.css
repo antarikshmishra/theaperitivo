@@ -21,8 +21,9 @@
 }
 
 body {
-	background: url(../images/img/background.jpg)  no-repeat center top;
-	background-size: contain;
+	background: url(../images/img/background.jpg);
+	background-repeat: round ;
+	background-size: cover ;
 	color:#ffffff;
 	margin:0px;
 }
