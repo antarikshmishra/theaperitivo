@@ -519,13 +519,23 @@ body {
 	padding: 0px;
 }
 
-<<<<<<< HEAD
+
 #q18{
-display: inline-block;
-padding-left: 240px;
-margin-top: -170px;
-margin-bottom: -170px;
-=======
+	display: inline-block;
+	padding-left: 240px;
+	margin-top: -170px;
+	margin-bottom: -170px;
+}
+
+#merci {
+	background: url(../images/img/merci_048.gif) no-repeat 0 0;
+	background-size: contain;
+	height: 1000px;
+	width: 800px;
+	margin-left: 300px;
+
+}
+
 /*------------------------- Javascript Classes -------------------------*/
 
 .active{
@@ -544,14 +554,6 @@ margin-bottom: -170px;
 	font-size: 23px;
 	height: 23px;
 	line-height: 15px;
->>>>>>> origin/master
-}
-
-#merci {
-	background: url(../images/img/merci_048.gif) no-repeat 0 0;
-	background-size: contain;
-	height: 1000px;
-	width: 800px;
-	margin-left: 300px;
 
 }
+
