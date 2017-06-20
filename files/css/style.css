@@ -518,3 +518,10 @@ body {
 #footer div span a {
 	padding: 0px;
 }
+
+#q18{
+display: inline-block;
+padding-left: 240px;
+margin-top: -170px;
+margin-bottom: -170px;
+}
