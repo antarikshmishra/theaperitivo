@@ -29,23 +29,25 @@
 						<tr>
 							<td><span>First Name</span><input name="firstname" type="text"></td>
 							<td><span>Surname</span><input type="text" name="surname"></td>
-							<td><span>Age</span><input type="Number"></td>
+							<td><span>Age</span><input name ="age" type="Number"></td>
 
 						</tr>
 						<tr>
-							<td><span>Email Address</span><input type="text"></td>
-							<td><span>Phone Number</span><input type="text"></td>
+							<td><span>Email Address</span><input name="email" type="text"></td>
+							<td><span>Phone Number</span><input name='phoneNum' type="text"></td>
 							<td>
 								<span>Contact Preference</span>
-								<label for="Mail"><input type="radio" class="radio" id="Mail" name="preference">Mail</label>
-								<label for="SMS"><input type="radio" class="radio" id="SMS" name="preference">SMS</label>
-								<label for="Call"><input type="radio" class="radio" id="SMS" name="Call">Call</label>
+								<label for="Mail"><input name='mail' type="radio" class="radio" id="Mail" >Mail</label>
+								<label for="SMS"><input name='sms' type="radio" class="radio" id="SMS" >SMS</label>
+								<label for="Call"><input name='call' type="radio" class="radio" id="SMS">Call</label>
 							</td>
 						</tr>
 						<tr>
 							<td colspan="3">
 								<span>Please type your request. We will answer within 2 business hours.</span>
-								<textarea name="comment"></textarea>
+
+								<textarea name ="request"></textarea>
+
 								<input type="submit" value="Submit" class="button">
 							</td>
 						</tr>
