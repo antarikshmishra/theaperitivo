@@ -19,7 +19,7 @@ MongoClient.connect(url, function(err, db) {
     app.post("/contact", function(req,res){
         console.log(req.body);
         collec.insert(req.body);
-        res.send('Merci');
+        res.sendFile(__dirname + "/files/Contact.html");
     });
 
     app.listen(8686,function(err){
