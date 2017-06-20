@@ -519,11 +519,32 @@ body {
 	padding: 0px;
 }
 
+<<<<<<< HEAD
 #q18{
 display: inline-block;
 padding-left: 240px;
 margin-top: -170px;
 margin-bottom: -170px;
+=======
+/*------------------------- Javascript Classes -------------------------*/
+
+.active{
+	color: red;
+}
+/*------------------------- Anti's Elements -------------------------*/
+.description{
+	font-family: 'DynalightRegular';
+	display: inline-block;
+	font-size: 18px;
+}
+.clickable-title{
+	color: black;
+	display: inline-block;
+	font-family: 'DynalightRegular';
+	font-size: 23px;
+	height: 23px;
+	line-height: 15px;
+>>>>>>> origin/master
 }
 
 #merci {
