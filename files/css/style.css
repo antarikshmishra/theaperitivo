@@ -110,12 +110,13 @@ body {
 }
 
 #header li.quote  {
-	background: url(/Users/valentine/Documents/GitHub/theaperitivo/files/images/img/quote-header.png) no-repeat 0 0;
+	background: url(../images/img/quote-header.png) no-repeat 0 0;
 	background-size: contain;
 	height: 300px;
 	width: 1000px;
 	float: right;
 	margin-top: -200px;
+	list-style-type: none;
 }
 
 /*-------------------------- Contents --------------------------*/
