@@ -1,20 +1,29 @@
 var express= require("express");
 var bodyParser = require('body-parser');
+var MongoClient = require('mongodb').MongoClient;
+var url = 'mongodb://essec:cergyisc00l@138.68.110.210:27017/admin?readPreference=primary';
 
-var app = express();
-app.use(express.static("files"));
+MongoClient.connect(url, function(err, db) {
 
-// parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }));
+    var collec = db.collection("aperitivo");
 
-// parse application/json
-app.use(bodyParser.json());
+    var app = express();
+    app.use(express.static("files"));
 
-app.post("/contact", function(req,res){
-    console.log(req.body);
-    res.send('Merci');
-});
+    // parse application/x-www-form-urlencoded
+    app.use(bodyParser.urlencoded({ extended: false }));
 
-app.listen(8686,function(err){
-    console.log("My app is running on port 8686");
+    // parse application/json
+    app.use(bodyParser.json());
+
+    app.post("/contact", function(req,res){
+        console.log(req.body);
+        collec.insert(req.body);
+        res.send('Merci');
+    });
+
+    app.listen(8686,function(err){
+        console.log("My app is running on port 8686");
+    });
+
 });
